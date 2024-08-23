@@ -1,0 +1,141 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &1
+MonoBehaviour:
+  m_ObjectHideFlags: 52
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 12323, guid: 0000000000000000e000000000000000, type: 0}
+  m_Name: Warms
+  m_EditorClassIdentifier: 
+  m_Presets:
+  - m_Name: Brown.900
+    m_Color: {r:0.2, g:0.14, b:0.11, a:1} 
+  - m_Name: Brown.800
+    m_Color: {r:0.31, g:0.21, b:0.17, a:1} 
+  - m_Name: Brown.700
+    m_Color: {r:0.4, g:0.29, b:0.24, a:1} 
+  - m_Name: Brown.600
+    m_Color: {r:0.49, g:0.37, b:0.31, a:1} 
+  - m_Name: Brown.500
+    m_Color: {r:0.62, g:0.49, b:0.42, a:1} 
+  - m_Name: Brown.400
+    m_Color: {r:0.73, g:0.61, b:0.55, a:1} 
+  - m_Name: Brown.300
+    m_Color: {r:0.81, g:0.72, b:0.67, a:1} 
+  - m_Name: Brown.200
+    m_Color: {r:0.89, g:0.83, b:0.8, a:1} 
+  - m_Name: Brown.100
+    m_Color: {r:0.94, g:0.91, b:0.9, a:1} 
+  - m_Name: Red.100
+    m_Color: {r:0.99, g:0.87, b:0.85, a:1} 
+  - m_Name: Red.200
+    m_Color: {r:0.98, g:0.74, b:0.7, a:1} 
+  - m_Name: Red.300
+    m_Color: {r:0.94, g:0.56, b:0.54, a:1} 
+  - m_Name: Red.400
+    m_Color: {r:0.9, g:0.38, b:0.38, a:1} 
+  - m_Name: Red.500
+    m_Color: {r:0.87, g:0.17, b:0.17, a:1} 
+  - m_Name: Red.600
+    m_Color: {r:0.69, g:0.11, b:0.11, a:1} 
+  - m_Name: Red.700
+    m_Color: {r:0.54, g:0.11, b:0.13, a:1} 
+  - m_Name: Red.800
+    m_Color: {r:0.38, g:0.09, b:0.13, a:1} 
+  - m_Name: Red.900
+    m_Color: {r:0.25, g:0.06, b:0.06, a:1} 
+  - m_Name: Orange-Deep.100
+    m_Color: {r:0.99, g:0.91, b:0.85, a:1} 
+  - m_Name: Orange-Deep.200
+    m_Color: {r:0.98, g:0.81, b:0.7, a:1} 
+  - m_Name: Orange-Deep.300
+    m_Color: {r:0.96, g:0.66, b:0.53, a:1} 
+  - m_Name: Orange-Deep.400
+    m_Color: {r:0.93, g:0.51, b:0.35, a:1} 
+  - m_Name: Orange-Deep.500
+    m_Color: {r:0.91, g:0.34, b:0.14, a:1} 
+  - m_Name: Orange-Deep.600
+    m_Color: {r:0.72, g:0.25, b:0.08, a:1} 
+  - m_Name: Orange-Deep.700
+    m_Color: {r:0.57, g:0.18, b:0.07, a:1} 
+  - m_Name: Orange-Deep.800
+    m_Color: {r:0.41, g:0.11, b:0.07, a:1} 
+  - m_Name: Orange-Deep.900
+    m_Color: {r:0.27, g:0.07, b:0.04, a:1} 
+  - m_Name: Orange.100
+    m_Color: {r:0.99, g:0.93, b:0.85, a:1} 
+  - m_Name: Orange.200
+    m_Color: {r:0.98, g:0.85, b:0.7, a:1} 
+  - m_Name: Orange.300
+    m_Color: {r:0.96, g:0.72, b:0.52, a:1} 
+  - m_Name: Orange.400
+    m_Color: {r:0.94, g:0.58, b:0.34, a:1} 
+  - m_Name: Orange.500
+    m_Color: {r:0.92, g:0.44, b:0.12, a:1} 
+  - m_Name: Orange.600
+    m_Color: {r:0.74, g:0.33, b:0.06, a:1} 
+  - m_Name: Orange.700
+    m_Color: {r:0.58, g:0.24, b:0.05, a:1} 
+  - m_Name: Orange.800
+    m_Color: {r:0.43, g:0.15, b:0.05, a:1} 
+  - m_Name: Orange.900
+    m_Color: {r:0.29, g:0.1, b:0.03, a:1} 
+  - m_Name: Amber.100
+    m_Color: {r:0.99, g:0.95, b:0.85, a:1} 
+  - m_Name: Amber.200
+    m_Color: {r:0.98, g:0.89, b:0.7, a:1} 
+  - m_Name: Amber.300
+    m_Color: {r:0.96, g:0.77, b:0.52, a:1} 
+  - m_Name: Amber.400
+    m_Color: {r:0.94, g:0.66, b:0.34, a:1} 
+  - m_Name: Amber.500
+    m_Color: {r:0.92, g:0.55, b:0.12, a:1} 
+  - m_Name: Amber.600
+    m_Color: {r:0.74, g:0.42, b:0.06, a:1} 
+  - m_Name: Amber.700
+    m_Color: {r:0.58, g:0.31, b:0.05, a:1} 
+  - m_Name: Amber.800
+    m_Color: {r:0.43, g:0.2, b:0.05, a:1} 
+  - m_Name: Amber.900
+    m_Color: {r:0.29, g:0.13, b:0.03, a:1} 
+  - m_Name: Yellow.100
+    m_Color: {r:0.98, g:0.99, b:0.85, a:1} 
+  - m_Name: Yellow.200
+    m_Color: {r:0.96, g:0.98, b:0.7, a:1} 
+  - m_Name: Yellow.300
+    m_Color: {r:0.95, g:0.94, b:0.52, a:1} 
+  - m_Name: Yellow.400
+    m_Color: {r:0.94, g:0.9, b:0.34, a:1} 
+  - m_Name: Yellow.500
+    m_Color: {r:0.88, g:0.83, b:0.08, a:1} 
+  - m_Name: Yellow.600
+    m_Color: {r:0.74, g:0.69, b:0.06, a:1} 
+  - m_Name: Yellow.700
+    m_Color: {r:0.58, g:0.52, b:0.06, a:1} 
+  - m_Name: Yellow.800
+    m_Color: {r:0.42, g:0.35, b:0.06, a:1} 
+  - m_Name: Yellow.900
+    m_Color: {r:0.28, g:0.23, b:0.04, a:1} 
+  - m_Name: Green-Light.100
+    m_Color: {r:0.95, g:0.99, b:0.85, a:1} 
+  - m_Name: Green-Light.200
+    m_Color: {r:0.89, g:0.98, b:0.7, a:1} 
+  - m_Name: Green-Light.300
+    m_Color: {r:0.77, g:0.96, b:0.53, a:1} 
+  - m_Name: Green-Light.400
+    m_Color: {r:0.66, g:0.93, b:0.35, a:1} 
+  - m_Name: Green-Light.500
+    m_Color: {r:0.54, g:0.87, b:0.17, a:1} 
+  - m_Name: Green-Light.600
+    m_Color: {r:0.42, g:0.72, b:0.08, a:1} 
+  - m_Name: Green-Light.700
+    m_Color: {r:0.31, g:0.57, b:0.07, a:1} 
+  - m_Name: Green-Light.800
+    m_Color: {r:0.2, g:0.41, b:0.07, a:1} 
+  - m_Name: Green-Light.900
+    m_Color: {r:0.14, g:0.27, b:0.04, a:1} 

@@ -1,0 +1,30 @@
+fileFormatVersion: 2
+guid: 715b012e1191d4d66b69d003d3587f1f
+TrueTypeFontImporter:
+  externalObjects: {}
+  serializedVersion: 4
+  fontSize: 20
+  forceTextureCase: -2
+  characterSpacing: 0
+  characterPadding: 1
+  includeFontData: 1
+  fontNames:
+  - Segoe UI SemiBold Italic
+  fallbackFontReferences:
+  - {fileID: 12800000, guid: 215120058a1cf42389190a16cc8aad0c, type: 3}
+  - {fileID: 12800000, guid: 62f4389e614f8413ab0229fd6f8536ff, type: 3}
+  - {fileID: 12800000, guid: 5facfa14e8c0d42d0847fdf01ab10337, type: 3}
+  - {fileID: 12800000, guid: 59c2508ec95504a97b360c7dc31b6495, type: 3}
+  - {fileID: 12800000, guid: d3d5c2a3379d9423b90fd6ad421fdd2f, type: 3}
+  - {fileID: 12800000, guid: 4608996d7f6924b339927d902adec418, type: 3}
+  - {fileID: 12800000, guid: afec13a91c0e04d4e9f294dc3c051f84, type: 3}
+  - {fileID: 12800000, guid: 7677dd1fb96874570ba9c609554b33bf, type: 3}
+  - {fileID: 12800000, guid: b6f49e31b635f4e83813ee4fcde5b470, type: 3}
+  customCharacters: 
+  fontRenderingMode: 1
+  ascentCalculationMode: 1
+  useLegacyBoundsCalculation: 0
+  shouldRoundAdvanceValue: 1
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
