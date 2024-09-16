@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: All Swatches
   m_EditorClassIdentifier: 
   m_Presets:
-  - m_Name: White Base
+  - m_Name: White
     m_Color: {r: 1, g: 1, b: 1, a: 1}
   - m_Name: White 90%
     m_Color: {r: 1, g: 1, b: 1, a: 0.9}
@@ -33,9 +33,9 @@ MonoBehaviour:
     m_Color: {r: 1, g: 1, b: 1, a: 0.2}
   - m_Name: White 10%
     m_Color: {r: 1, g: 1, b: 1, a: 0.1}
-  - m_Name: White Clear
+  - m_Name: Clear
     m_Color: {r: 1, g: 1, b: 1, a: 0}
-  - m_Name: Black Base
+  - m_Name: Black
     m_Color: {r: 0, g: 0, b: 0, a: 1}
   - m_Name: Black 90%
     m_Color: {r: 0, g: 0, b: 0, a: 0.9}
@@ -55,7 +55,7 @@ MonoBehaviour:
     m_Color: {r: 0, g: 0, b: 0, a: 0.2}
   - m_Name: Black 10%
     m_Color: {r: 0, g: 0, b: 0, a: 0.1}
-  - m_Name: Black Clear
+  - m_Name: Clear
     m_Color: {r: 0, g: 0, b: 0, a: 0}
   - m_Name: Grey.900
     m_Color: {r: 0.16, g: 0.16, b: 0.16, a: 1}
@@ -345,6 +345,8 @@ MonoBehaviour:
     m_Color: {r: 0.39, g: 0.09, b: 0.37, a: 1}
   - m_Name: Purple.900
     m_Color: {r: 0.26, g: 0.06, b: 0.25, a: 1}
+  - m_Name: Draft
+    m_Color: {r: 0.4117647, g: 0.29803923, b: 0.5803922, a: 1}
   - m_Name: Pink.100
     m_Color: {r: 1, g: 0.84, b: 0.91, a: 1}
   - m_Name: Pink.200

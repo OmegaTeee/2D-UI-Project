@@ -9,6 +9,11 @@
 /[Bb]uilds/
 /[Ll]ogs/
 /[Uu]ser[Ss]ettings/
+/[Uu]sers/vmardorf/
+/[Vv]ar/folders/
+/[Aa]ssets/Shapes2D/Demos*
+/[Aa]ssets/Editor/Layer*
+/[Aa]ssets/Shapes2D*
 
 # MemoryCaptures can get excessive in size.
 # They also could contain extremely sensitive data
@@ -25,6 +30,7 @@
 
 # Visual Studio cache directory
 .vs/
+.vscode/
 *.DS_Store
 
 # Gradle cache directory
@@ -73,3 +79,6 @@ crashlytics-build.properties
 # Temporary auto-generated Android Assets
 /[Aa]ssets/[Ss]treamingAssets/aa.meta
 /[Aa]ssets/[Ss]treamingAssets/aa/*
+
+.fake
+

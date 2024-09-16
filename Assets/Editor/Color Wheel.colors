@@ -1,0 +1,247 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &1
+MonoBehaviour:
+  m_ObjectHideFlags: 52
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 12323, guid: 0000000000000000e000000000000000, type: 0}
+  m_Name: Color Wheel
+  m_EditorClassIdentifier: 
+  m_Presets:
+  - m_Name: Clear
+    m_Color: {r: 1, g: 1, b: 1, a: 1}
+  - m_Name: White
+    m_Color: {r: 1, g: 1, b: 1, a: 1}
+  - m_Name: White.90
+    m_Color: {r: 1, g: 1, b: 1, a: 0.9}
+  - m_Name: White.80
+    m_Color: {r: 1, g: 1, b: 1, a: 0.8}
+  - m_Name: White.70
+    m_Color: {r: 1, g: 1, b: 1, a: 0.7}
+  - m_Name: White.60
+    m_Color: {r: 1, g: 1, b: 1, a: 0.6}
+  - m_Name: White.50
+    m_Color: {r: 1, g: 1, b: 1, a: 0.5}
+  - m_Name: White.40
+    m_Color: {r: 1, g: 1, b: 1, a: 0.4}
+  - m_Name: White.30
+    m_Color: {r: 1, g: 1, b: 1, a: 0.3}
+  - m_Name: White.20
+    m_Color: {r: 1, g: 1, b: 1, a: 0.2}
+  - m_Name: White.10
+    m_Color: {r: 1, g: 1, b: 1, a: 0.1}
+  - m_Name: Clear
+    m_Color: {r: 0, g: 0, b: 0, a: 0}
+  - m_Name: Black
+    m_Color: {r: 0, g: 0, b: 0, a: 1}
+  - m_Name: Black.90
+    m_Color: {r: 0, g: 0, b: 0, a: 0.9}
+  - m_Name: Black.80
+    m_Color: {r: 0, g: 0, b: 0, a: 0.8}
+  - m_Name: Black.70
+    m_Color: {r: 0, g: 0, b: 0, a: 0.7}
+  - m_Name: Black.60
+    m_Color: {r: 0, g: 0, b: 0, a: 0.6}
+  - m_Name: Black.50
+    m_Color: {r: 0, g: 0, b: 0, a: 0.5}
+  - m_Name: Black.40
+    m_Color: {r: 0, g: 0, b: 0, a: 0.4}
+  - m_Name: Black.30
+    m_Color: {r: 0, g: 0, b: 0, a: 0.3}
+  - m_Name: Black.20
+    m_Color: {r: 0, g: 0, b: 0, a: 0.2}
+  - m_Name: Black.10
+    m_Color: {r: 0, g: 0, b: 0, a: 0.1}
+  - m_Name: Neutral.100
+    m_Color: {r: 0.96, g: 0.96, b: 0.96, a: 1}
+  - m_Name: Neutral.200
+    m_Color: {r: 0.89, g: 0.89, b: 0.89, a: 1}
+  - m_Name: Neutral.300
+    m_Color: {r: 0.79, g: 0.79, b: 0.79, a: 1}
+  - m_Name: Neutral.400
+    m_Color: {r: 0.67, g: 0.67, b: 0.67, a: 1}
+  - m_Name: Neutral.500
+    m_Color: {r: 0.58, g: 0.58, b: 0.58, a: 1}
+  - m_Name: Neutral.600
+    m_Color: {r: 0.44, g: 0.44, b: 0.44, a: 1}
+  - m_Name: Neutral.700
+    m_Color: {r: 0.35, g: 0.35, b: 0.35, a: 1}
+  - m_Name: Neutral.800
+    m_Color: {r: 0.24, g: 0.24, b: 0.24, a: 1}
+  - m_Name: Neutral.900
+    m_Color: {r: 0.15, g: 0.15, b: 0.15, a: 1}
+  - m_Name: Pink-700
+    m_Color: {r: 0.22, g: 0, b: 0.13, a: 1}
+  - m_Name: Pink-600
+    m_Color: {r: 0.4, g: 0.06, b: 0.27, a: 1}
+  - m_Name: Pink-500
+    m_Color: {r: 0.6, g: 0.12, b: 0.41, a: 1}
+  - m_Name: Pink-400
+    m_Color: {r: 0.8, g: 0.18, b: 0.55, a: 1}
+  - m_Name: Pink-300
+    m_Color: {r: 0.85, g: 0.35, b: 0.65, a: 1}
+  - m_Name: Pink-200
+    m_Color: {r: 0.91, g: 0.51, b: 0.75, a: 1}
+  - m_Name: Pink-100
+    m_Color: {r: 0.96, g: 0.68, b: 0.85, a: 1}
+  - m_Name: Red-700
+    m_Color: {r: 0.25, g: 0.04, b: 0, a: 1}
+  - m_Name: Red-600
+    m_Color: {r: 0.49, g: 0.1, b: 0.04, a: 1}
+  - m_Name: Red-500
+    m_Color: {r: 0.73, g: 0.17, b: 0.07, a: 1}
+  - m_Name: Red-400
+    m_Color: {r: 0.97, g: 0.24, b: 0.11, a: 1}
+  - m_Name: Red-300
+    m_Color: {r: 0.98, g: 0.4, b: 0.29, a: 1}
+  - m_Name: Red-200
+    m_Color: {r: 0.99, g: 0.56, b: 0.48, a: 1}
+  - m_Name: Red-100
+    m_Color: {r: 1, g: 0.72, b: 0.67, a: 1}
+  - m_Name: Vermilion-700
+    m_Color: {r: 0.25, g: 0.08, b: 0, a: 1}
+  - m_Name: Vermilion-600
+    m_Color: {r: 0.48, g: 0.2, b: 0.05, a: 1}
+  - m_Name: Vermilion-500
+    m_Color: {r: 0.72, g: 0.31, b: 0.09, a: 1}
+  - m_Name: Vermilion-400
+    m_Color: {r: 0.95, g: 0.42, b: 0.14, a: 1}
+  - m_Name: Vermilion-300
+    m_Color: {r: 0.97, g: 0.54, b: 0.31, a: 1}
+  - m_Name: Vermilion-200
+    m_Color: {r: 0.98, g: 0.66, b: 0.49, a: 1}
+  - m_Name: Vermilion-100
+    m_Color: {r: 1, g: 0.78, b: 0.67, a: 1}
+  - m_Name: Orange-700
+    m_Color: {r: 0.24, g: 0.14, b: 0, a: 1}
+  - m_Name: Orange-600
+    m_Color: {r: 0.47, g: 0.3, b: 0.06, a: 1}
+  - m_Name: Orange-500
+    m_Color: {r: 0.71, g: 0.46, b: 0.12, a: 1}
+  - m_Name: Orange-400
+    m_Color: {r: 0.94, g: 0.62, b: 0.18, a: 1}
+  - m_Name: Orange-300
+    m_Color: {r: 0.96, g: 0.7, b: 0.35, a: 1}
+  - m_Name: Orange-200
+    m_Color: {r: 0.97, g: 0.78, b: 0.51, a: 1}
+  - m_Name: Orange-100
+    m_Color: {r: 0.99, g: 0.86, b: 0.68, a: 1}
+  - m_Name: Amber-700
+    m_Color: {r: 0.25, g: 0.19, b: 0, a: 1}
+  - m_Name: Amber-600
+    m_Color: {r: 0.48, g: 0.38, b: 0.04, a: 1}
+  - m_Name: Amber-500
+    m_Color: {r: 0.72, g: 0.58, b: 0.09, a: 1}
+  - m_Name: Amber-400
+    m_Color: {r: 0.95, g: 0.77, b: 0.13, a: 1}
+  - m_Name: Amber-300
+    m_Color: {r: 0.97, g: 0.82, b: 0.31, a: 1}
+  - m_Name: Amber-200
+    m_Color: {r: 0.98, g: 0.87, b: 0.49, a: 1}
+  - m_Name: Amber-100
+    m_Color: {r: 1, g: 0.93, b: 0.67, a: 1}
+  - m_Name: Yellow-700
+    m_Color: {r: 0.25, g: 0.23, b: 0, a: 1}
+  - m_Name: Yellow-600
+    m_Color: {r: 0.49, g: 0.46, b: 0.03, a: 1}
+  - m_Name: Yellow-500
+    m_Color: {r: 0.73, g: 0.69, b: 0.06, a: 1}
+  - m_Name: Yellow-400
+    m_Color: {r: 0.96, g: 0.91, b: 0.09, a: 1}
+  - m_Name: Yellow-300
+    m_Color: {r: 0.98, g: 0.93, b: 0.28, a: 1}
+  - m_Name: Yellow-200
+    m_Color: {r: 0.99, g: 0.96, b: 0.47, a: 1}
+  - m_Name: Yellow-100
+    m_Color: {r: 1, g: 0.98, b: 0.66, a: 1}
+  - m_Name: Limeade-700
+    m_Color: {r: 0.12, g: 0.2, b: 0, a: 1}
+  - m_Name: Limeade-600
+    m_Color: {r: 0.25, g: 0.4, b: 0.02, a: 1}
+  - m_Name: Limeade-500
+    m_Color: {r: 0.38, g: 0.6, b: 0.05, a: 1}
+  - m_Name: Limeade-400
+    m_Color: {r: 0.51, g: 0.8, b: 0.07, a: 1}
+  - m_Name: Limeade-300
+    m_Color: {r: 0.62, g: 0.85, b: 0.27, a: 1}
+  - m_Name: Limeade-200
+    m_Color: {r: 0.73, g: 0.91, b: 0.47, a: 1}
+  - m_Name: Limeade-100
+    m_Color: {r: 0.84, g: 0.96, b: 0.66, a: 1}
+  - m_Name: Green-700
+    m_Color: {r: 0, g: 0.18, b: 0, a: 1}
+  - m_Name: Green-600
+    m_Color: {r: 0.05, g: 0.35, b: 0.05, a: 1}
+  - m_Name: Green-500
+    m_Color: {r: 0.09, g: 0.52, b: 0.09, a: 1}
+  - m_Name: Green-400
+    m_Color: {r: 0.14, g: 0.69, b: 0.14, a: 1}
+  - m_Name: Green-300
+    m_Color: {r: 0.31, g: 0.77, b: 0.31, a: 1}
+  - m_Name: Green-200
+    m_Color: {r: 0.49, g: 0.86, b: 0.49, a: 1}
+  - m_Name: Green-100
+    m_Color: {r: 0.67, g: 0.94, b: 0.67, a: 1}
+  - m_Name: Cerulean-700
+    m_Color: {r: 0, g: 0.17, b: 0.2, a: 1}
+  - m_Name: Cerulean-600
+    m_Color: {r: 0.02, g: 0.34, b: 0.4, a: 1}
+  - m_Name: Cerulean-500
+    m_Color: {r: 0.05, g: 0.51, b: 0.59, a: 1}
+  - m_Name: Cerulean-400
+    m_Color: {r: 0.07, g: 0.68, b: 0.79, a: 1}
+  - m_Name: Cerulean-300
+    m_Color: {r: 0.27, g: 0.76, b: 0.85, a: 1}
+  - m_Name: Cerulean-200
+    m_Color: {r: 0.47, g: 0.84, b: 0.91, a: 1}
+  - m_Name: Cerulean-100
+    m_Color: {r: 0.66, g: 0.92, b: 0.96, a: 1}
+  - m_Name: Blue-700
+    m_Color: {r: 0, g: 0.11, b: 0.19, a: 1}
+  - m_Name: Blue-600
+    m_Color: {r: 0.02, g: 0.22, b: 0.38, a: 1}
+  - m_Name: Blue-500
+    m_Color: {r: 0.04, g: 0.34, b: 0.56, a: 1}
+  - m_Name: Blue-400
+    m_Color: {r: 0.06, g: 0.45, b: 0.75, a: 1}
+  - m_Name: Blue-300
+    m_Color: {r: 0.26, g: 0.58, b: 0.82, a: 1}
+  - m_Name: Blue-200
+    m_Color: {r: 0.46, g: 0.7, b: 0.88, a: 1}
+  - m_Name: Blue-100
+    m_Color: {r: 0.66, g: 0.83, b: 0.95, a: 1}
+  - m_Name: Indigo-700
+    m_Color: {r: 0.105882354, g: 0.078431375, b: 0.48235294, a: 1}
+  - m_Name: Indigo-600
+    m_Color: {r: 0.12156863, g: 0.12941177, b: 0.654902, a: 1}
+  - m_Name: Indigo-500
+    m_Color: {r: 0.13333334, g: 0.18039216, b: 0.827451, a: 1}
+  - m_Name: Indigo-400
+    m_Color: {r: 0.22745098, g: 0.3137255, b: 0.89411765, a: 1}
+  - m_Name: Indigo-300
+    m_Color: {r: 0.43529412, g: 0.53333336, b: 0.92156863, a: 1}
+  - m_Name: Indigo-200
+    m_Color: {r: 0.60784316, g: 0.6901961, b: 0.9529412, a: 1}
+  - m_Name: Indigo-100
+    m_Color: {r: 0.78039217, g: 0.84705883, b: 0.98039216, a: 1}
+  - m_Name: Purple-700
+    m_Color: {r: 0.15, g: 0, b: 0.25, a: 1}
+  - m_Name: Purple-600
+    m_Color: {r: 0.25, g: 0.05, b: 0.39, a: 1}
+  - m_Name: Purple-500
+    m_Color: {r: 0.35, g: 0.1, b: 0.53, a: 1}
+  - m_Name: Purple-400
+    m_Color: {r: 0.45, g: 0.15, b: 0.67, a: 1}
+  - m_Name: Purple-300
+    m_Color: {r: 0.59, g: 0.33, b: 0.78, a: 1}
+  - m_Name: Purple-200
+    m_Color: {r: 0.73, g: 0.51, b: 0.89, a: 1}
+  - m_Name: Purple-100
+    m_Color: {r: 0.87, g: 0.68, b: 1, a: 1}
+  - m_Name: 
+    m_Color: {r: 0.083137326, g: 0, b: 0.4, a: 1}
